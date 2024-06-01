@@ -57,3 +57,6 @@ Copy code
 Include Tailwind in your CSS:
 
 Update the src/index.css file to include Tailwind’s base, components, and utilities styles:
+
+Preview:
+<img src="./src/assets/read1.png" />
