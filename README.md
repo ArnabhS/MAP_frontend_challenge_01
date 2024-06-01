@@ -53,15 +53,7 @@ Configure Tailwind CSS:
 Update the tailwind.config.js file with the paths to your template files:
 
 Copy code
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+<img src ="./src/assets/read.png"/>
 Include Tailwind in your CSS:
 
 Update the src/index.css file to include Tailwind’s base, components, and utilities styles:
