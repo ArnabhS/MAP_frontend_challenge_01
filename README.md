@@ -17,8 +17,8 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/horizontal-scrollable-card-list.git
-cd horizontal-scrollable-card-list
+git clone https://github.com/ArnabhS/MAP_frontend_challenge_01.git
+cd cards-project
 Install dependencies:
 
 bash
@@ -33,7 +33,7 @@ The application will run in development mode, and you can view it in the browser
 
 File Structure
 src/App.js: Main application component that includes the horizontal scrollable list.
-src/components/Card.js: Card component that displays individual cards with images, titles, descriptions, tags, and icons.
+src/components/Cards.js: Card component that displays individual cards with images, titles, descriptions, tags, and icons.
 tailwind.config.js: Tailwind CSS configuration file.
 Packages Used
 React: A JavaScript library for building user interfaces.
@@ -52,7 +52,6 @@ Configure Tailwind CSS:
 
 Update the tailwind.config.js file with the paths to your template files:
 
-js
 Copy code
 module.exports = {
   content: [
