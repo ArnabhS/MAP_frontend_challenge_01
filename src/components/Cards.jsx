@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaRegBookmark, FaShareAlt } from 'react-icons/fa';
 
 
 const Card = ({ image, title, type, tags }) => {
   const [isLoaded, setIsLoaded] = useState(false);
-
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoaded(true);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     
     <div className=" w-64 h-[450px] flex-shrink-0  bg-emerald-100  rounded-xl overflow-hidden transform transition-transform duration-300 hover:scale-105 ml-20 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]   border-slate-50">
@@ -12,7 +17,7 @@ const Card = ({ image, title, type, tags }) => {
       <img
         src={image}
         alt={title}
-        onLoad={() => setIsLoaded(true)}
+        onLoad={() => setIsLoaded(false)}
         className={`w-full h-[4/5] object-cover   p-4  {isLoaded ? 'block' : 'hidden'} `}
       />
       <div className="p-2 mt-[-10px]">
