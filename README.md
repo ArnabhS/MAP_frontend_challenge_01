@@ -1,4 +1,4 @@
-*For Skeleton loader please checl the deployed link here*  
+*For Skeleton loader please check the deployed link here*  
 Deployment link: <a href="https://verdant-kelpie-273fed.netlify.app/"> Site Link</a>
 
 
