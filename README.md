@@ -1,3 +1,6 @@
+Deployment link: <a href="https://verdant-kelpie-273fed.netlify.app/"> Site Link</a>
+
+
 This project is a React application that displays a horizontal scrollable list of cards. Each card maintains a portrait orientation and includes features like a title, type description, tags, and icons. The cards are displayed in a horizontal order, and the list includes an automatic scrolling effect while allowing user scroll as well. The images in the cards have a border radius for enhanced UI/UX.
 
 Features
