@@ -7,13 +7,13 @@ const Card = ({ image, title, type, tags }) => {
 
   return (
     
-    <div className=" w-64 h-[490px] flex-shrink-0  bg-emerald-100  rounded-xl overflow-hidden transform transition-transform duration-300 hover:scale-105 ml-20 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]   border-slate-50">
+    <div className=" w-64 h-[450px] flex-shrink-0  bg-emerald-100  rounded-xl overflow-hidden transform transition-transform duration-300 hover:scale-105 ml-20 hover:shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]   border-slate-50">
       {!isLoaded && <div className="animate-pulse bg-gray-300 w-full h-full absolute"></div>}
       <img
         src={image}
         alt={title}
         onLoad={() => setIsLoaded(true)}
-        className={`w-full h-[80%] object-cover  mt-2 p-4  {isLoaded ? 'block' : 'hidden'} `}
+        className={`w-full h-[4/5] object-cover   p-4  {isLoaded ? 'block' : 'hidden'} `}
       />
       <div className="p-2 mt-[-10px]">
         <h2 className="text-xl text-emerald-900 font-bold ml-2">{title}</h2>
