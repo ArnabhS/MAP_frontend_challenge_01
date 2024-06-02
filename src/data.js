@@ -18,6 +18,7 @@ import yoga from './assets/yoga.jpeg'
 import latest from './assets/latest.jpeg'
 import destination from './assets/destination.jpeg'
 import watch from './assets/watch.jpeg'
+
 export const cardData =[
     {
       "title": "The Future of Shopping",
